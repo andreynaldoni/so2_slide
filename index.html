@@ -1,50 +1,580 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="pt_BR">
+
   <head>
-    <meta charset="UTF-8">
-    <title>New Life by andreynaldoni</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <meta charset="utf-8">
+
+    <title>New Life</title>
+
+    <meta name="author" content="Andrey Naldoni, Carlos Henrique, Paulo Barros e Yunes Noronha">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <!-- New Life - Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">New Life</h1>
-      <h2 class="project-tagline">A college presentation work - (FATEC PG - Sistemas Operacionais II)</h2>
-      <a href="https://github.com/andreynaldoni/so2_slide" class="btn">View on GitHub</a>
-      <a href="https://github.com/andreynaldoni/so2_slide/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/andreynaldoni/so2_slide/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <h2>
-<a id="so2-slides-presentatation" class="anchor" href="#so2-slides-presentatation" aria-hidden="true"><span class="octicon octicon-link"></span></a>SO2 Slides Presentatation</h2>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
 
-<p>New Life IT Consulting</p>
+        <!-- Slide 1 - Apresentação -->
+        <section data-background="img/corp-bg.png">
+          <h1>New Life</h1>
+          <h3>Caso de sucesso<br/>ILS - International Linguistics School</h3>
+          <p>
+            <small>Apresentado por <a href="#">Andrey</a>, <a href="#">Carlos</a>, <a href="#">Paulo</a>, <a href="#">Roberto</a>, <a href="#">Yunes</a></small>
+          </p>
+        </section>
 
-<p>A project slide made and presented at <a href="www.fatecpg.com.br">FATEC-PG</a> using the incredible <a href="http://lab.hakim.se/reveal-js/#/">Reveal.JS</a> framework.</p>
+        <!-- Slide 2 - Equipe -->
+        <section data-background-transition="zoom">
+          <section data-background="#C91111">
+            <h2>Apresentação da Equipe</h2>
+          </section>
 
-<p>Proudly developed from this group below:</p>
+          <section data-background="rgba(0,0,255,0.4)">
+            <h2>Equipe de Infraestrutura e Redes</h2>
+          </section>
+          <!--Yunes -->
+          <section data-background-transition="zoom" data-autoslide="400" data-background="img/infra-bg.png" class="author">
+            <div class="black-bg">
+              <table>
+                <img src="img/team/yunes.jpg" alt="Foto Yunes" class="fragment">
+                <tr>
+                  <td>
+                    <ul>
+                      <h3 class="fragment">Um pouco sobre o Yunes</h3>
+                      <li class="fragment">Arquiteto de Software</li>
+                      <li class="fragment">Mestre em Infraestruturas de Redes</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                      <h3 class="fragment">Autor dos artigos:</h3>
+                      <li class="fragment">“PROGRAMING WITH C#”, 2001. Harvard.</li>
+                      <li data-autoslide="0" class="fragment">“Maintainable architecture software C#”, 2003. Harvard.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          <!-- Paulo -->
+          <section data-background-transition="zoom" data-autoslide="400" data-background="img/mngr-bg.png" class="author">
+            <div class="white-bg">
+              <table>
+                <img src="img/team/paulo.jpg" alt="Foto Paulo" class="fragment">
+                <tr>
+                  <td>
+                    <ul>
+                      <h3 class="fragment">Um pouco sobre o Paulo</h3>
+                      <li class="fragment">Doutor em Análise de Documentação</li>
+                      <li class="fragment">Pós Graduado em Redes Corporativas</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                      <h3 class="fragment">Autor dos artigos:</h3>
+                      <li class="fragment">“CREATE art with a programmer mind”, 2003. Harvard.</li>
+                      <li data-autoslide="0" class="fragment">“Make Software Inteligent”, 2012. Harvard.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </section>
 
-<ul>
-<li><a href="andreynaldoni@gmail.com">Andrey Naldoni</a></li>
-<li><a href="1932thx@gmail.com">Carlos Henrique</a></li>
-<li><a href="paulo.sb@live.com">Paulo Barros</a></li>
-<li><a href="yunesnoronha@gmail.com">Yunes Noronha</a></li>
-</ul>
+          <section data-background="rgba(0,255,0,0.4)">
+            <h2>Equipe de Sistemas Operacionais</h2>
+          </section>
+          <!-- Carlos -->
+          <section data-background-transition="zoom" data-autoslide="400" data-background="img/data-bg.png" class="author">
+            <div class="black-bg">
+              <table>
+                <img src="img/team/carlos.jpg" alt="Foto Carlos" class="fragment">
+                <tr>
+                  <td>
+                    <ul>
+                      <h3 class="fragment">Um pouco sobre o Carlos</h3>
+                      <li class="fragment">Mestre em Bancos de Dados</li>
+                      <li class="fragment">MBA em Servidores e Recursos de Computação em Nuvem</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                      <h3 class="fragment">Autor dos artigos:</h3>
+                      <li data-autoslide="0" class="fragment">“Mastering cloud computing”, 2006, MIT - Massachusetts Institute of Technology.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          <!-- Andrey -->
+          <section data-background-transition="zoom" data-autoslide="400" data-background="img/qadt-bg.png" class="author">
+            <div class="black-bg">
+              <table>
+                <img src="img/team/andrey.jpg" class="fragment">
+                <tr>
+                  <td>
+                    <ul>
+                      <h3 class="fragment">Um pouco sobre o Andrey</h3>
+                      <li class="fragment">Doutor em Qualidade de Processos de Desenvolvimento de Software</li>
+                      <li class="fragment">MBA em Servidores e Recursos de Computação em Nuvem</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                      <h3 class="fragment">Autor dos artigos:</h3>
+                      <li class="fragment">“How to make a High Quality System – NodeJS”, 2013. MIT - Massachusetts Institute of Technology.</li>
+                      <li data-autoslide="0" class="fragment">“Scalable and Adaptable System to Evolve”. 2014. MIT - Massachusetts Institute of Technology.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          <!-- Rodrigo -->
+          <section data-background-transition="zoom" data-autoslide="400" data-background="img/encry-bg.png" class="author">
+            <div class="black-bg">
+              <table>
+                <img src="img/team/roberto.jpg" class="fragment">
+                <tr>
+                  <td>
+                    <ul>
+                      <h3 class="fragment">Um pouco sobre o Rodrigo</h3>
+                      <li class="fragment">Mestre em Segurança Cibernética</li>
+                      <li class="fragment">Doutor em Big Data</li>
+                    </ul>
+                    <br/><br/>
+                    <ul>
+                      <h3 class="fragment">Autor dos artigos:</h3>
+                      <li data-autoslide="0" class="fragment">“Encrypting your home network using 2048 bit RSA keys”, 2014. - University of Oregon.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </section>
+        </section>
 
-<p>Special thanks to <a href="http://hakim.se/">Hakim El Hattab</a>, creator of Reveal.JS</p>
+        <!-- Slide 3 - Sobre a New Life -->
+        <section data-background="#FFF" data-background-transition="zoom">
+          <img src="img/newlife.png" alt="Empresa New Life" class="no-bg">
+        </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/andreynaldoni/so2_slide">New Life</a> is maintained by <a href="https://github.com/andreynaldoni">andreynaldoni</a>.</span>
+        <!-- Slide 4 - Sobre a ILS -->
+        <section>
+          <section data-background="img/ils-bg.png" data-transition="slide">
+            <div class="black-bg">
+              <h2>Sobre a ILS</h2>
+              <p><i>“International Linguistics School”.</i></p>
+            </div>
+          </section>
+          <!-- Slide 4.1 - O Pedido -->
+          <section data-background="img/ils-bg.png" data-transition="slide">
+            <div class="black-bg">
+              <h2>A Exigência</h2>
+              <em>“O Grupo empresarial desejava abrir uma escola de idiomas de porte médio, devido ao baixo baixo capital de investimento, o grupo optou pela utilização de sistemas de código aberto em todos os departamentos (Administrativo e Acadêmico por exemplos)”.</em>
+            </div>
+          </section>
+          <!-- Slide 4.2 - O Estudo -->
+          <section data-background="img/ils-bg.png" data-transition="slide">
+            <div class="black-bg">
+              <h2>O Estudo</h2>
+              <em>“Entendendo a necessidade do cliente”.</em>
+            </div>
+          </section>
+          <!-- Slide 4.3 - A Solução -->
+          <section data-background="img/ils-bg.png" data-transition="slide">
+            <div class="black-bg">
+              <h2>A Solução</h2>
+              <em>“Um ambiente moldado à inovação”.</em>
+            </div>
+          </section>
+        </section>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+        <!-- Slide 5 - Planejamento -->
+        <section data-background-transition="zoom">
+          <section data-background="#652C97" data-transition="slide">
+            <h1>Planejamento</h1>
+          </section>
+          <!-- Planta do Sistema -->
+          <section data-background="#652C97" data-transition="slide">
+            <div class="black-bg">
+              <h2>Planta do Sistema</h2>
+              <em>“4 meses estudando a planta do prédio visando atender as normas ISO 27000 e 9000 em paralelo com o objetivo do ciente”.</em>
+            </div>
+          </section>
+          <!-- Equipamento -->
+          <section data-background="#652C97" data-transition="slide">
+            <div class="black-bg">
+              <h2>Equipamento</h2>
+              <em>“2 meses sobre como atingir a excelência no equipamento sem elevar o custo”.</em>
+            </div>
+          </section>
+          <!-- Lucros -->
+          <section data-background="#652C97" data-transition="slide">
+            <div class="black-bg">
+              <h2>Lucros</h2>
+              <em>“Parceria e participação nos lucros”.</em>
+            </div>
+          </section>
+          <!-- Treinamento -->
+          <section data-background="#652C97" data-transition="slide">
+            <div class="black-bg">
+              <h2>Treinamento</h2>
+              <em>“Uma equipe com alguns dos primeiros funcionários acompanharam grande parte do processo e receberam instruções e documentos para passar a todos funcionários”.</em>
+            </div>
+          </section>
+        </section>
 
-    </section>
+        <!-- Slide 6 - Cronogramas -->
+        <section data-background-transition="zoom">
+          <section data-background="#FFD700" data-transition="slide">
+            <h1 class="black">Cronogramas</h1>
+          </section>
+          <!-- Slide 6.1 - Cronograma de Rede -->
+          <!-- Cronograma de Rede - A -->
+          <section data-background="rgba(0,0,255,0.4)">
+            <h2>Cronograma de Rede</h2>
+            <img src="img/schedule/net-a.png" alt="Cronograma de Rede - A">
+            <small>*Manutenção inclusa em todos os estágios do processo</small>
+          </section>
+          <!-- Cronograma de Rede - B -->
+          <section data-background="rgba(0,0,255,0.4)" data-transition="slide">
+            <h2>Cronograma de Rede</h2>
+            <img src="img/schedule/net-b.png" alt="Cronograma de Rede - B">
+            <small>*Manutenção inclusa em todos os estágios do processo</small>
+          </section>
 
-  
+          <!-- Slide 6.2 - Cronograma de SO -->
+          <section data-background="rgba(0,255,0,0.4)">
+            <h2>Cronograma de Sistemas</h2>
+            <img src="img/schedule/so.png" alt="Cronograma de Sistemas Operacionais">
+            <small>*Manutenção e treinamento inclusas durante todos os estágios do processo</small>
+          </section>
+        </section>
+
+        <!-- Slide 7 - Equipamentos -->
+        <section>
+          <section data-background="#C91111" data-background-transition="zoom">
+            <h1>Equipamentos</h1>
+          </section>
+          <!-- Tabela de Preços - Parte 1 -->
+          <section data-autoslide="500" data-transition="slide">
+            <h3 class="fragment">Preços dos equipamentos</h3>
+            <table>
+              <thead>
+                <tr class="fragment">
+                  <th>Equipamento</th>
+                  <th>Valor Unit.</th>
+                  <th>Quant.</th>
+                  <th>Valor Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="fragment">
+                  <td>Computador</td>
+                  <td>R$ 1.420,00</td>
+                  <td>45</td>
+                  <td>R$ 63,900.00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Impressora</td>
+                  <td>R$ 230.00</td>
+                  <td>2</td>
+                  <td>R$ 460.00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Servidor</td>
+                  <td>R$ 2.410.00</td>
+                  <td>1</td>
+                  <td>R$ 2.410,00</td>
+                </tr>
+                <tr data-autoslide="0" class="fragment">
+                  <td>Nobreak</td>
+                  <td>R$ 620,00</td>
+                  <td>1</td>
+                  <td>R$ 620,00</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <!-- Tabela de Preços - Parte 2 -->
+          <section data-autoslide="500">
+            <h3>Preços dos equipamentos</h3>
+            <table>
+              <thead>
+                <tr class="fragment">
+                  <th>Equipamento</th>
+                  <th>Valor Unit.</th>
+                  <th>Quant.</th>
+                  <th>Valor Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="fragment">
+                  <td>Switch</td>
+                  <td>R$ 620,00</td>
+                  <td>4</td>
+                  <td>R$ 2.480,00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Projetor</td>
+                  <td>R$ 800,00</td>
+                  <td>9</td>
+                  <td>R$ 7.200,00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Roteador</td>
+                  <td>R$ 535,00</td>
+                  <td>1</td>
+                  <td>R$ 535,00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Cabo (CAT6)</td>
+                  <td>R$ 8,00</td>
+                  <td>300 mts</td>
+                  <td>R$ 2.400,00</td>
+                </tr>
+                <tr data-autoslide="0" class="fragment">
+                  <td colspan="3"><b>Valor total dos equipamentos</b></td>
+                  <td><b>R$ 80.005,00</b></td>
+                </tr>
+                </span>
+              </tbody>
+            </table>
+          </section>
+          <!-- Serviços -->
+          <section data-background="#C91111">
+            <h2>Serviços</h2>
+          </section>
+          <!-- Tabela de Preços Serviços -->
+          <section data-autoslide="500">
+            <h3 class="fragment">Preço dos Serviços</h3>
+            <table>
+              <thead>
+                <tr class="fragment">
+                  <th>Serviço</th>
+                  <th>Valor Unit.</th>
+                  <th>Quant.</th>
+                  <th>Valor Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="fragment">
+                  <td>S.O. Administrativo e<br/> Acadêmico</td>
+                  <td>R$ 50.00</td>
+                  <td>45</td>
+                  <td>R$ 2,250.00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Servidor - Debian 8</td>
+                  <td>R$ 500.00</td>
+                  <td>1</td>
+                  <td>R$ 500.00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Cabeamento</td>
+                  <td>R$ 200.00</td>
+                  <td>47</td>
+                  <td>R$ 9,400.00</td>
+                </tr>
+                <tr class="fragment">
+                  <td>Montagem e <br/> Instalação Rack</td>
+                  <td>R$ 500.00</td>
+                  <td>1</td>
+                  <td>R$ 500.00</td>
+                </tr>
+                <tr class="fragment" data-autoslide="0">
+                  <td colspan="3"><b>Valor total de serviços</b></td>
+                  <td><b>R$ 12,650.00</b></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <!-- Total - Equipamento + Serviços -->
+          <section data-transition="slide" data-background="rgba(0,255,0,0.4)">
+            <h2>Total</h2>
+            <h1>R$ 92.655,00</h1>
+            <small>*Valor referente a soma dos equipamentos + serviços.</small>
+          </section>
+        </section>
+
+        <!-- Slide 8 - Redes e Driagramas -->
+        <section data-background-transition="zoom">
+          <section data-background="rgba(0,0,255,0.7)">
+            <h2>Redes e Diagramas</h2>
+          </section>
+          <!-- Imagem - Cisco Packet Tracer -->
+          <section data-transition="slide" data-background-transition="zoom" data-background="#FFF">
+            <h3 class="black">Planta de Rede</h3>
+            <img src="img/schedule/packet.png" alt="Diagrama de Redes - Cisco Packet Tracer" class="no-bg"/>
+            <small class="black">*Criado com o software Cisco - Packet Tracer</small>
+          </section>
+          <!-- Imagem - Planta Baixa -->
+          <section data-transition="slide" data-background="#FFF">
+            <h3 class="black">Planta Baixa</h3>
+            <img src="img/schedule/ground-floor.png" alt="Planta Baixa - Microsoft Visio 2013"/>
+            <small class="black">*Criado com o software Microsoft Visio 2013</small>
+          </section>
+        </section>
+
+        <!-- Slide 9 - Sistemas Operacionais -->
+        <section>
+          <section data-background="rgba(0,255,0,0.4)" data-background-transition="zoom">
+            <h2>Sistemas Operacionais</h2>
+          </section>
+          <!-- Debian -->
+          <section data-background="img/debian-bg.png" data-background-transition="zoom" data-transition="slide" data-autoslide="500">
+            <div class="fragment black-bg">
+              <h2 class="fragment">Debian 8</h2>
+              <h4 class="fragment">Requisitos Mínmos</h4>
+              <ul>
+                <li class="fragment">Processador: (AMD64/i386...)</li>
+                <li class="fragment">Memória Ram: 256MB</li>
+                <li class="fragment" data-autoslide="0">Espaço em Disco: 10GB</li>
+              </ul>
+            </div>
+          </section>
+          <!-- Linux Educacional -->
+          <section data-background="img/lnx-bg.png" data-background-transition="zoom" data-transition="slide" data-autoslide="500">
+            <div class="fragment black-bg">
+              <h2 class="fragment">Linux Educacional 5</h2>
+              <h4 class="fragment">Requisitos Mínimos</h4>
+              <ul>
+                <li class="fragment">Processador: Pentium 4, 1.5GHz (ou equivalente)</li>
+                <li class="fragment">Memória RAM: 1GB</li>
+                <li class="fragment" data-autoslide="0">Espaço em Disco: 10GB</li>
+              </ul>
+            </div>
+          </section>
+
+        </section>
+        <!-- Slide 10 - Software Acadêmico -->
+        <section>
+          <section data-background="rgba(0,255,0,0.4)" data-background-transition="zoom">
+            <h2>Softwares Acadêmicos</h2>
+          </section>
+          <!-- Fedena -->
+          <section data-background="img/fedena-bg.png" data-background-transition="zoom" data-transition="slide" data-autoslide="500">
+            <div class="fragment black-bg">
+              <h2 class="fragment">Fedena</h2>
+              <p class="fragment" data-autoslide="0">Sistema de gerenciamento completo de instituições de ensino.</p>
+            </div>
+          </section>
+          <!-- Libre Office -->
+          <section data-background="img/office-bg.png" data-background-transition="zoom" data-transition="slide" data-autoslide="500">
+            <div class="fragment black-bg">
+              <h2 class="fragment">Libre Office 3</h2>
+              <p class="fragment" data-autoslide="0">Uma suíte de escritório completa, ambiente de fácil de utilização e multiplataforma.</p>
+            </div>
+          </section>
+          <!-- Web Livros -->
+          <section data-background="#0080FF" data-background-transition="zoom" data-transition="slide">
+            <h1>Web Livros</h1>
+          </section>
+          <!-- Web Livros - Tablet -->
+          <section data-background="#0080FF" data-background-transition="zoom" data-transition="slide">
+            <img src="img/weblivros/ipad.png" alt="iPad - Sistema WebLivros" class="no-bg"/>
+          </section>
+          <!-- Web Livros - Celular -->
+          <section data-background="#0080FF" data-background-transition="zoom" data-transition="slide">
+            <img src="img/weblivros/iphone.png" alt="iPhone - Sistema WebLivros" class="no-bg"/>
+          </section>
+        </section>
+        <!-- Slide 11 - Segurança -->
+        <section data-background="img/iso-bg.png" data-background-transition="zoom" data-autoslide="500">
+          <div class="black-bg">
+            <h2 class="fragment">Segurança</h2>
+            <p class="fragment">O projeto foi implatado e apoiado nas exigências da <i>Organização Internacional para Padronização</i></p>
+            <li class="fragment">ISO 27001</li>
+            <li class="fragment" data-autoslide="0">ISO 9001</li>
+          </div>
+        </section>
+        <!-- Slide 12 - Apresentação dos Sistemas -->
+        <section data-background-transition="zoom">
+          <h2>Apresentação dos Sistemas</h2>
+        </section>
+        <!-- Slide 13 - Créditos -->
+        <section>
+          <h2>Créditos</h2>
+          <h4>Apresentado por:</h4>
+          <p>
+            Andrey Naldoni - <a href="mailto:andreynaldoni@gmail.com?subject=FATECPG%20-%20SO2%20-%20Projeto%20New%20Life">andreynaldoni@gmail.com</a><br/>
+            Carlos Henrique - <a href="mailto:1932thx@gmail.com?subject=FATECPG%20-%20SO2%20-%20Projeto%20New%20Life">1932thx@gmail.com</a><br/>
+            Rodrigo Roberto - <a href="mailto:cerberus.santos@gmail.com?subject=FATECPG%20-%20SO2%20-%20Projeto%20New%20Life">cerberus.santos@gmail.com</a><br/>
+            Paulo Barros - <a href="mailto:paulo.sb@live.com?subject=FATECPG%20-%20SO2%20-%20Projeto%20New%20Life">paulo.sb@live.com</a><br/>
+            Yunes Noronha - <a href="mailto:yunesnoronha@gmail.com?subject=FATECPG%20-%20SO2%20-%20Projeto%20New%20Life">yunesnoronha@gmail.com</a><br/>
+          </p>
+
+          <p>Special thanks to <a href="http://hakim.se">Hakim El Hattab</a></p>
+
+          <p>
+            <a href="https://www.debian.org/">Debian</a><br/>
+            <a href="http://linuxeducacional.c3sl.ufpr.br/">Linux Educacional</a><br/>
+          </p>
+          <p>Powered By <a href="http://lab.hakim.se/reveal-js/">Reveal.js</a></p>
+          <p>
+            <a href="http://www.fatecpg.com.br">FATEC Praia Grande</a> - Análise e Desenvolvimento de Sistemas<br/>
+            Sistemas Operacionais II - Profº: <a href="mailto:fabio@fatecpg.com.br">Fábio Pessoa de Sá</a>
+          </p>
+          <small>*Imagens retiradas do Google Imagens</small>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ],
+        /* Fix for mobile slides
+         *keyboard: {
+         *39: 'next',
+         *37: 'prev'
+        }*/
+      });
+
+    </script>
+
   </body>
 </html>
